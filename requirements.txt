@@ -1,0 +1,14 @@
+torch==2.1.2
+torchaudio==2.1.2
+torchvision==0.16.2
+transformers==4.36.2
+google-api-core==2.15.0
+google-api-python-client==2.111.0
+google-auth==2.25.1
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.1.0
+google-pasta==0.2.0
+googleapis-common-protos==1.62.0
+googletrans==4.0.0rc1
+python-dotenv==1.0.0
+streamlit==1.28.2
