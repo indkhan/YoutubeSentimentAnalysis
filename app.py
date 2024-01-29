@@ -47,8 +47,12 @@ def get_video_comments(video_id, api_key):
 
 
 def makevideoid(url):
-    video_id = url.split("=")[1].split("&")[0]
-    return video_id
+    if "?v=" in url:
+        video_id = url.split("=")[1].split("&")[0]
+        return video_id
+    else:
+        video_id = url.split("/")[3].split("?")[0]
+        return video_id
 
 
 st.title("YouTube Comment Sentiment Analysis")
